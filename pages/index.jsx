@@ -13,7 +13,6 @@ export default function Home() {
     const [result, setResult] = useState("");
     const URL = "https://teachablemachine.withgoogle.com/models/bvkUkni6a";
     let webcam;
-
     async function init() {
         const modelURL = URL + '/model.json';
         const metadataURL = URL + '/metadata.json';
@@ -85,7 +84,7 @@ export default function Home() {
                         <p>predictions:</p>
                         <div style={{
                             height: '200px',
-                            fontSize: '8vh',
+                            fontSize: '5vh',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'center',
